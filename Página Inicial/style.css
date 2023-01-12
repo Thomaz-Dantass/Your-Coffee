@@ -29,3 +29,44 @@ body
 {
     color: var(--text-color);
 }
+
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5 linear;
+    background: var(--text-color);
+}
+
+.logo img
+{
+    width: 60px;
+}
+
+.navbar
+{
+    display: flex;
+}
+
+.navbar a
+{
+    padding: 8px 17px;
+    color: var(--bg-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar a:hover
+{
+    background: var(--main-color);
+    border-radius: 0.2rem;
+    transform: 0.2 all linear;
+}
