@@ -171,7 +171,7 @@ header
 {
     padding: 10px 40px;
     border-radius: 0.3rem;
-    background-position: var(--main-color);
+    background: var(--main-color);
     color: var(--bg-color);
     font-weight: 500;
 }
