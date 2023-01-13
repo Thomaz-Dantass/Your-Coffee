@@ -50,7 +50,12 @@ header
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
+}
+
+header.shadow
+{
     background: var(--text-color);
+    box-shadow: var(--box-shadow);
 }
 
 .logo img
@@ -145,7 +150,7 @@ header
     background: url(img/bg.png);
     background-repeat: no-repeat;
     background: cover;
-    background-position: center top;
+    background-position: left top;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
     align-items: center;
@@ -325,4 +330,11 @@ header
     height: 70px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.copyright
+{
+    padding: 20px;
+    text-align: center;
+    background: var(--second-color);
 }
