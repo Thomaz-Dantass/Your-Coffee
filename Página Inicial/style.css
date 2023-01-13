@@ -285,3 +285,44 @@ header
     color: var(--bg-color);
     transition: 0.2s all linear;
 }
+
+.cliente-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.cliente-container .box
+{
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.stars .bx
+{
+    color: var(--main-color);
+}
+
+.cliente-container .box p
+{
+    font-size: 0.938rem;
+}
+
+.cliente-container .box h2
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.5rem;
+}
+
+.cliente-container .box img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
