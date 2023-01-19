@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.primeira-coluna-p
+{
+    display: flex;
+}
+.lista-midia-social
+{
+    display: flex;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+.segunda-coluna-p
+{
+    position: absolute;
+    display: none;
+}
