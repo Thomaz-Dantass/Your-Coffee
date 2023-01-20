@@ -1,0 +1,15 @@
+.form
+{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.form-login
+{
+    background-color: aqua;
+}
+.form-register
+{
+    background-color: brown;
+}
+
