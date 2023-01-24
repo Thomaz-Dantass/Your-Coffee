@@ -117,7 +117,7 @@ header.shadow
 {
     width: 100%;
     min-height: 100vh;
-    background: url(./bg.png);
+    background: url(img/bg.png);
     background-repeat: no-repeat;
     background: cover;
     background-position: left top;
