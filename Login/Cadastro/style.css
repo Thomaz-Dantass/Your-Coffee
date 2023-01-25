@@ -62,6 +62,14 @@ body
     color: white;
     line-height: 30px;
 }
+.descricao-p
+{
+    color: white;
+}
+.descricao-s
+{
+    color: darkgray;
+}
 .btn
 {
     border-radius: 15px;
@@ -107,14 +115,34 @@ body
 {
     display: flex;
     gap: 10px;
-    list-style: none;
+    list-style-type: none;
+}
+.itens-m
+{
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.itens-m a
+{
+    color: darkgray;
 }
 form
 {
     display: flex;
     flex-direction: column;
+    width: 55%;
 }
-
+form input
+{
+    height: 45px;
+    border: none;
+    background-color: whitesmoke;
+    margin: 8px;
+}
 
 .segunda-coluna-p
 {
