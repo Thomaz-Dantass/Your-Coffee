@@ -1,8 +1,13 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
 }
 .container
 {
@@ -11,21 +16,134 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: antiquewhite;
 
 }
 .primeira-coluna-p
 {
+    border-radius: 15px ;
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
+    position: relative;
+}
+.primeira-coluna-p::before 
+{
+    content: "";
+    position: absolute;
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.titulo
+{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.titulo_p
+{
+    color: white;
+}
+.titulo-s
+{
+    color: darkcyan;
+}
+.descricao
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    line-height: 30px;
+}
+.descricao-p
+{
+    color: white;
+}
+.descricao-s
+{
+    color: darkgray;
+}
+.btn
+{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-p
+{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-p:hover
+{
+    background-color: white;
+    color: darkcyan;
+}
+.coluna1
+{
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+.coluna2
+{
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .lista-midia-social
 {
     display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.itens-m
+{
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.itens-m a
+{
+    color: darkgray;
 }
 form
 {
     display: flex;
     flex-direction: column;
+    width: 55%;
 }
+form input
+{
+    height: 45px;
+    border: none;
+    background-color: whitesmoke;
+    margin: 8px;
+}
+
 .segunda-coluna-p
 {
     position: absolute;

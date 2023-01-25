@@ -60,57 +60,7 @@ header.shadow
 
 .logo img
 {
-    width: 80px;
-}
-
-.header-icon
-{
-    font-size: 22px;
-    cursor: pointer;
-    z-index: 10000;
-    display: flex;
-    column-gap: 0.8rem;
-}
-
-.header-icon .bx
-{
-    color: var(--bg-color);
-}
-
-.header-icon .bx:hover
-{
-    color: var(--main-color);
-}
-
-.search-box
-{
-    position: absolute;
-    top: -100%;
-    left: 50%;
-    transform: translate(-50%);
-    background: var(--bg-color);
-    width: 100%;
-}
-.search-box.active
-{
-    top: 110%;
-    box-shadow: var(--box-shadow);
-    transition: 0.2s all linear;
-}
-.search-box input
-{
-    padding: 20px;
-    border: none;
-    outline: none;
-    width: 100%;
-    font-size: 1rem;
-    color: var(--main-color);
-}
-
-.search-box input::placeholder
-{
-    font-size: 1rem;
-    font-weight: 500;
+    width: 65px;
 }
 
 .home
