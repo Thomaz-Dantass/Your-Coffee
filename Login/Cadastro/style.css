@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-*
-{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,8 +35,10 @@ body
     content: "";
     position: absolute;
     background-color: darkcyan;
-    width: 40%;
+    width: 50%;
     height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .titulo
 {
@@ -69,16 +71,24 @@ body
     padding: 10px 50px;
     cursor: pointer;
     font-weight: bold;
+    margin-top: 10px;
 }
 .btn-p
 {
     background-color: transparent;
     border: 1px solid white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
 }
-.btn-p
+.btn-p:hover
 {
     background-color: white;
-    color: aqua;
+    color: darkcyan;
 }
 .coluna1
 {
@@ -96,13 +106,14 @@ body
 .lista-midia-social
 {
     display: flex;
+    gap: 10px;
+    list-style: none;
 }
 form
 {
     display: flex;
     flex-direction: column;
 }
-
 
 
 .segunda-coluna-p
