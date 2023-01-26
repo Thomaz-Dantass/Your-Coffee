@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ecf0f1;
+    background: url(../../pags/img/bg2.png);
 }
 .content {
     background-color: #fff;
@@ -26,7 +26,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #58af9b;
+    background-color: #bc9667;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -42,7 +42,7 @@ body {
     color: #fff;
 }
 .title-second {
-    color: #58af9b;
+    color: #bc9667;
 }
 .description {
     font-size: 14px;
@@ -75,17 +75,17 @@ body {
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color: #bc9667;
 }
 .btn-second {
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #bc9667;
+    border: 1px solid #bc9667;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid #bc9667;
+    color: #bc9667;
 }
 .first-content {
     display: flex;
@@ -114,9 +114,9 @@ body {
     transition: background-color .5s;
 }
 .link-social-media:hover .item-social-media{
-    background-color: #58af9b;
+    background-color: #bc9667;
     color: #fff;
-    border-color: #58af9b;
+    border-color: #bc9667;
 }
 .list-social-media {
     display: flex;
@@ -198,7 +198,7 @@ input:-webkit-autofill
     z-index: 12;
 }
 .sign-up-js .content::before {
-    animation: slideout 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slideout 1.5s; /*MODIFIQUEI DE 3s PARA 1.3s*/
     z-index: 12;
 }
 .sign-up-js .second-content .first-column,
@@ -215,12 +215,12 @@ input:-webkit-autofill
 .sign-in-js .first-content .second-column {
     z-index: -1;
     position: relative;
-    animation: deslocamentoEsq 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoEsq 1.5s; /*MODIFIQUEI DE 3s PARA 1.3s*/
 }
 .sign-up-js .second-content .second-column {
     position: relative;
     z-index: -1;
-    animation: deslocamentoDir 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoDir 1.5s; /*MODIFIQUEI DE 3s PARA 1.3s*/
 }
 /*ANIMAÇÃOO CSS PARA O CONTEÚDO*/
 @keyframes deslocamentoEsq {
@@ -329,11 +329,11 @@ input:-webkit-autofill
     }
 
     .first-column, .second-column {
-        width: 100%;
+        width: 60%;
     }
 
     .sign-in-js .content::before {
-        top: 60%;
+        top: 65%;
         left: 0;
         border-radius: 0;
 
