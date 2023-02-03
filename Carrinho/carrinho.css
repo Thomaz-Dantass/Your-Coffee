@@ -285,3 +285,79 @@ aside > button:hover
 {
   background: #bc9667;
 }
+
+@media (max-width: 991px) {
+  body > header {
+  font-size: 20px;
+  }
+  
+  body > main .page-title {
+  font-size: 30px;
+  }
+  
+  body > main .content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  }
+  
+  body > main .content section {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  }
+  
+  body > main .content aside {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  }
+  }
+
+@media only screen and (max-width: 767px) {
+  body > header {
+  font-size: 20px;
+  }
+  
+  body > main .page-title {
+  font-size: 30px;
+  }
+  
+  body > main .content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  }
+  
+  body > main .content aside {
+  min-width: 0;
+  margin-top: 20px;
+  }
+  }
+
+@media only screen and (max-width: 480px) {
+  body > header {
+    font-size: 20px;
+  }
+  
+  body > main .page-title {
+    font-size: 30px;
+  }
+  
+  body > main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  body > main .content aside {
+    min-width: 0;
+  }
+  
+  aside .box {
+    margin-bottom: 20px;
+  }
+}
